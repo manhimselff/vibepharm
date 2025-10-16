@@ -14,12 +14,14 @@ A modern, full-stack pharmacy management system built with React, Node.js, Expre
 ## Tech Stack
 
 ### Frontend
+
 - React
 - React Router DOM
 - Bootstrap
 - Axios
 
 ### Backend
+
 - Node.js
 - Express.js
 - PostgreSQL
@@ -29,6 +31,7 @@ A modern, full-stack pharmacy management system built with React, Node.js, Expre
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js
 - PostgreSQL
 - npm
@@ -36,19 +39,22 @@ A modern, full-stack pharmacy management system built with React, Node.js, Expre
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone <your-repo-url>
 cd vibepharm
 ```
 
 2. Install Server Dependencies
+
 ```bash
 cd server
 npm install
 ```
 
 3. Set up Environment Variables
-Create a `.env` file in the server directory with:
+   Create a `.env` file in the server directory with:
+
 ```
 DATABASE_URL="postgresql://username:password@localhost:5432/vibepharm"
 JWT_SECRET="your_jwt_secret"
@@ -56,19 +62,22 @@ PORT=5000
 ```
 
 4. Install Client Dependencies
+
 ```bash
 cd ../client
 npm install
 ```
 
 5. Run the Application
-Server:
+   Server:
+
 ```bash
 cd server
 npm run dev
 ```
 
 Client:
+
 ```bash
 cd client
 npm start
